@@ -1,0 +1,9 @@
+[[TetGen]]
+arch = "x86_64"
+git-tree-sha1 = "46761d4158624bfcfa09d1713cb7ac471b1ed3b8"
+libc = "glibc"
+os = "linux"
+
+    [[TetGen.download]]
+    sha256 = "2d00a942474f4ae88db37ff904369b76d92a31837378e1e221b60fe177f93966"
+    url = "https://github.com/j-fu/TetGen_jll.jl/releases/download/TetGen-v1.5.1+0/TetGen.v1.5.1.x86_64-linux-gnu.tar.gz"
