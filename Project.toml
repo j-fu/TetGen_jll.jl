@@ -1,6 +1,6 @@
 name = "TetGen_jll"
 uuid = "b47fdcd6-d2c1-58e9-bbba-c1cee8d8c179"
-version = "1.5.1+0"
+version = "1.5.1+1"
 
 [deps]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"

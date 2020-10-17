@@ -1,9 +1,113 @@
 [[TetGen]]
-arch = "x86_64"
-git-tree-sha1 = "46761d4158624bfcfa09d1713cb7ac471b1ed3b8"
+arch = "aarch64"
+git-tree-sha1 = "851b0c232f19d45c9f0c0ba27ea648dda3649299"
 libc = "glibc"
 os = "linux"
 
     [[TetGen.download]]
-    sha256 = "2d00a942474f4ae88db37ff904369b76d92a31837378e1e221b60fe177f93966"
-    url = "https://github.com/j-fu/TetGen_jll.jl/releases/download/TetGen-v1.5.1+0/TetGen.v1.5.1.x86_64-linux-gnu.tar.gz"
+    sha256 = "a2a422227d7a30aa700f8566b0e46254a21f520168e2a7c9cc9bb6b4236c49da"
+    url = "https://github.com/j-fu/TetGen_jll.jl/releases/download/TetGen-v1.5.1+1/TetGen.v1.5.1.aarch64-linux-gnu.tar.gz"
+[[TetGen]]
+arch = "aarch64"
+git-tree-sha1 = "b68bee745d1277a5ed3a6b3c77d85785a00b2b16"
+libc = "musl"
+os = "linux"
+
+    [[TetGen.download]]
+    sha256 = "b5b838a5c06632b3afa626ea307e875530d3aa3ce4e77c6a274a1697182f382d"
+    url = "https://github.com/j-fu/TetGen_jll.jl/releases/download/TetGen-v1.5.1+1/TetGen.v1.5.1.aarch64-linux-musl.tar.gz"
+[[TetGen]]
+arch = "armv7l"
+git-tree-sha1 = "66a96ec4d6047e7a87538fb65aba1826253e5536"
+libc = "glibc"
+os = "linux"
+
+    [[TetGen.download]]
+    sha256 = "956097f475342a664860fb7d6523356d3055e426731375553d4a5530b9570f8b"
+    url = "https://github.com/j-fu/TetGen_jll.jl/releases/download/TetGen-v1.5.1+1/TetGen.v1.5.1.armv7l-linux-gnueabihf.tar.gz"
+[[TetGen]]
+arch = "armv7l"
+git-tree-sha1 = "ab32eb9f3a32c921e4fdd0704a77ab83592486bf"
+libc = "musl"
+os = "linux"
+
+    [[TetGen.download]]
+    sha256 = "8de7b563678d71a1327d5c721424712f7948c56964620e9cab909cb4d6510106"
+    url = "https://github.com/j-fu/TetGen_jll.jl/releases/download/TetGen-v1.5.1+1/TetGen.v1.5.1.armv7l-linux-musleabihf.tar.gz"
+[[TetGen]]
+arch = "i686"
+git-tree-sha1 = "ede4f0142d6d8a86851fdf3145696f138b754e48"
+libc = "glibc"
+os = "linux"
+
+    [[TetGen.download]]
+    sha256 = "c0e507c836415616aa7c34e5d74175ba591816e1ee13cf626a2c32a0d813fb4d"
+    url = "https://github.com/j-fu/TetGen_jll.jl/releases/download/TetGen-v1.5.1+1/TetGen.v1.5.1.i686-linux-gnu.tar.gz"
+[[TetGen]]
+arch = "i686"
+git-tree-sha1 = "3ab0c4091d2afab0a4fc25e106affb6b050204f3"
+libc = "musl"
+os = "linux"
+
+    [[TetGen.download]]
+    sha256 = "132923482dd01973210af7bbe548e68e365cbe30d3433783fed45758bc61b5c1"
+    url = "https://github.com/j-fu/TetGen_jll.jl/releases/download/TetGen-v1.5.1+1/TetGen.v1.5.1.i686-linux-musl.tar.gz"
+[[TetGen]]
+arch = "i686"
+git-tree-sha1 = "2f04e71ea8ddd9ef54b1852f0a80848b46d608df"
+os = "windows"
+
+    [[TetGen.download]]
+    sha256 = "89376ebb1a4d35d5c0455dec2273b391e678bb0eea89f31f0e52b4d10b5aedc0"
+    url = "https://github.com/j-fu/TetGen_jll.jl/releases/download/TetGen-v1.5.1+1/TetGen.v1.5.1.i686-w64-mingw32.tar.gz"
+[[TetGen]]
+arch = "powerpc64le"
+git-tree-sha1 = "3cc0f67c57061aa44725546ff7073525744adf47"
+libc = "glibc"
+os = "linux"
+
+    [[TetGen.download]]
+    sha256 = "565393350a95fee4a81de3039a08b420e71cdb9b894575bb26ed3480c163a375"
+    url = "https://github.com/j-fu/TetGen_jll.jl/releases/download/TetGen-v1.5.1+1/TetGen.v1.5.1.powerpc64le-linux-gnu.tar.gz"
+[[TetGen]]
+arch = "x86_64"
+git-tree-sha1 = "195ed947fb422ec66245111ca778cb48906039c6"
+os = "macos"
+
+    [[TetGen.download]]
+    sha256 = "b95b6bf631d14b6fc54164a278b90cff94d746d7050a61994b8fbcfab7efa160"
+    url = "https://github.com/j-fu/TetGen_jll.jl/releases/download/TetGen-v1.5.1+1/TetGen.v1.5.1.x86_64-apple-darwin14.tar.gz"
+[[TetGen]]
+arch = "x86_64"
+git-tree-sha1 = "ab0e8cfc8517e5e2889298e047bfc608e4b62c8d"
+libc = "glibc"
+os = "linux"
+
+    [[TetGen.download]]
+    sha256 = "f0d78a46919dc2368dc34abbc3e7c5f0e3026d1817e7d633bd0c3c4e2b025326"
+    url = "https://github.com/j-fu/TetGen_jll.jl/releases/download/TetGen-v1.5.1+1/TetGen.v1.5.1.x86_64-linux-gnu.tar.gz"
+[[TetGen]]
+arch = "x86_64"
+git-tree-sha1 = "2ee2db6b12859c54fad2de997128694d9225bb05"
+libc = "musl"
+os = "linux"
+
+    [[TetGen.download]]
+    sha256 = "35c1e9c1bb72fafe75a1bb4eb1e035d2c86c8a362b5a3d3a1b3adecfc920b60f"
+    url = "https://github.com/j-fu/TetGen_jll.jl/releases/download/TetGen-v1.5.1+1/TetGen.v1.5.1.x86_64-linux-musl.tar.gz"
+[[TetGen]]
+arch = "x86_64"
+git-tree-sha1 = "4b0263b6c7babf67b09b2136d97a0cfecd9b5ad6"
+os = "freebsd"
+
+    [[TetGen.download]]
+    sha256 = "07619801cdf6dbcd909f444607430c4a79e8d1352e9cfb38fd3fefd998c75cf8"
+    url = "https://github.com/j-fu/TetGen_jll.jl/releases/download/TetGen-v1.5.1+1/TetGen.v1.5.1.x86_64-unknown-freebsd11.1.tar.gz"
+[[TetGen]]
+arch = "x86_64"
+git-tree-sha1 = "80d553b4b2e00e15d47e20b2168bd2b142e197b3"
+os = "windows"
+
+    [[TetGen.download]]
+    sha256 = "f55cd4476e7b94390cfd4a6c36770150e1a8113ec9d31604b17085378209033b"
+    url = "https://github.com/j-fu/TetGen_jll.jl/releases/download/TetGen-v1.5.1+1/TetGen.v1.5.1.x86_64-w64-mingw32.tar.gz"
