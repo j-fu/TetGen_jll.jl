@@ -8,7 +8,7 @@ For more details about JLL packages and how to use them, see `BinaryBuilder.jl` 
 
 The tarballs for `TetGen_jll.jl` have been built from these sources:
 
-* git repository: https://github.com/ufz/tetgen.git (revision: `9c4b70d479c6f67cb9e16dbe65f81ec3b821acad`)
+* git repository: https://github.com/ufz/tetgen.git (revision: `150223d9416b5b75f5c1e50fda1ff7ba6f96871d`)
 * files in directory, relative to originating `build_tarballs.jl`: `cwrapper`
 
 ## Platforms
