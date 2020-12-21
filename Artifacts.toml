@@ -104,10 +104,10 @@ os = "windows"
     url = "https://github.com/j-fu/TetGen_jll.jl/releases/download/TetGen-v1.5.1+1/TetGen.v1.5.1.x86_64-w64-mingw32.tar.gz"
 [[TetGen]]
 arch = "x86_64"
-git-tree-sha1 = "c15019b0232a83d5342698ca1711732268a459f3"
+git-tree-sha1 = "39069f07d445f9c653fcc91677990d03a804198d"
 libc = "glibc"
 os = "linux"
 
     [[TetGen.download]]
-    sha256 = "0f0704888acc32bd90e9fb8f565daca4acba62f9398576cd0d3e39f8fad00dfd"
+    sha256 = "bf2dc37cf1b6884f59dfe2d4d4785832e8a4b8ba5522b92c40d937e6e0219751"
     url = "https://github.com/j-fu/TetGen_jll.jl/releases/download/TetGen-v1.5.1+1/TetGen.v1.5.1.x86_64-linux-gnu.tar.gz"
